@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "QuickOn SEO Checker",
+  "version": "1.0",
+  "description": "Counts the number of each heading (h1, h2, h3, h4, h5) in the current page.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}

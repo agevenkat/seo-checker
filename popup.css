@@ -1,0 +1,66 @@
+/* Base styling for the extension popup */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+}
+h1 {font-size: 18px; padding: 1rem 2rem}
+/* Container styling */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  gap: 10px; 
+  padding: 10px; 
+}
+.image-grid img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+#output {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+h3 {
+  color: #00796b;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/* Title and description styling */
+p {
+  font-size: 0.9em;
+  margin: 4px 0;
+}
+
+strong {
+  color: #004d40;
+}
+
+/* Error message styling */
+p[style="color:red;"] {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Heading content display */
+.heading-content {
+  font-size: 0.85em;
+  padding: 5px;
+  background-color: #e0f2f1;
+  border-radius: 4px;
+  margin: 4px 0;
+  color: #004d40;
+}
